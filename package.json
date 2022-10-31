@@ -5,6 +5,9 @@
   "license": "MIT",
   "author": "Alex Litzow <alex.litzow@rapidplatform.com.au>",
   "repository": "https://github.com/rapid-platform/sanitize-html.git",
+  "files": [
+    "esm"
+  ],
   "scripts": {
     "prepublish": "yarn build",
     "build": "tsc"

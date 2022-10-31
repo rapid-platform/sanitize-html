@@ -1,0 +1,23 @@
+{
+  "name": "@rapid-platform/sanitize-html",
+  "version": "1.0.0",
+  "main": "./esm/index.js",
+  "license": "MIT",
+  "author": "Alex Litzow <alex.litzow@rapidplatform.com.au>",
+  "repository": "https://github.com/rapid-platform/sanitize-html.git",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "sanitize-html": "^2.7.3"
+  },
+  "node": ">=14.16",
+  "devDependencies": {
+    "@types/react": "18.0.14",
+    "@types/sanitize-html": "^2.6.2",
+    "sanitize-html": "^2.7.3",
+    "typescript": "^4.7.4"
+  }
+}
